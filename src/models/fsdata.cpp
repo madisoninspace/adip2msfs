@@ -30,7 +30,7 @@ void FSData::new_airport_element(Airport::AirportItem airport)
 
 	airportElement->SetAttribute("name", airport.name.c_str());
 	airportElement->SetAttribute("city", airport.city.c_str());
-	airportElement->SetAttribute("magvar", Airport::parse_magnetic_variation(airport.magneticVariation).c_str());
+	//airportElement->SetAttribute("magvar", Airport::parse_magnetic_variation(airport.magneticVariation).c_str());
 
 	if (root) {
 		root->InsertEndChild(airportElement);
