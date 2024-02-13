@@ -1,0 +1,782 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		411604F61F004B2C8754DD25 /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 07C0BC73AC524ED3A8D58391 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				EBE29C1B1CC9503C6403E336 /* Generate CMakeFiles/ALL_BUILD */,
+			);
+			dependencies = (
+				C07F02EE4DA54FAB8CC3FDED /* PBXTargetDependency */,
+				6085FE1FE49B4D0294700C0E /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+		E4E41337B9854B16A3561790 /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 4516E8A047B14DDF9C7A2AC9 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				8E7C137FCC41B0AADF7B2A50 /* Generate CMakeFiles/ZERO_CHECK */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		002ECAF4B541419B8E50E204 /* /Users/madison/Documents/GitHub/adip2msfs/src/tinyxml2.cpp */ = {isa = PBXBuildFile; fileRef = FD20E8B38FA847E1B8CBC68D /* /Users/madison/Documents/GitHub/adip2msfs/src/tinyxml2.cpp */; };
+		09899224DC43426EAF582E92 /* /Users/madison/Documents/GitHub/adip2msfs/include/tinyxml2.h */ = {isa = PBXBuildFile; fileRef = 0F5F6A77078745C886927F5A /* /Users/madison/Documents/GitHub/adip2msfs/include/tinyxml2.h */; };
+		19281489B1C6455DB9D5E0DD /* /Users/madison/Documents/GitHub/adip2msfs/src/models/fsdata.cpp */ = {isa = PBXBuildFile; fileRef = 8320CB1BE7364FE5B0349418 /* /Users/madison/Documents/GitHub/adip2msfs/src/models/fsdata.cpp */; };
+		2F5E332128C44CC99A5073FA /* /Users/madison/Documents/GitHub/adip2msfs/include/models/fsdata.hpp */ = {isa = PBXBuildFile; fileRef = 8A1D746EF3544A1898EA4640 /* /Users/madison/Documents/GitHub/adip2msfs/include/models/fsdata.hpp */; };
+		4467A50DA751475C87DB06E4 /* /Users/madison/Documents/GitHub/adip2msfs/include/csv.hpp */ = {isa = PBXBuildFile; fileRef = F6C9C21BF6D3410DA283363C /* /Users/madison/Documents/GitHub/adip2msfs/include/csv.hpp */; };
+		4A0EB936E5ED40E994FFA5C9 /* /Users/madison/Documents/GitHub/adip2msfs/include/coordinates.hpp */ = {isa = PBXBuildFile; fileRef = F738E7FE5DB744179406E21D /* /Users/madison/Documents/GitHub/adip2msfs/include/coordinates.hpp */; };
+		644BC4DAE8B348B5803937A5 /* /Users/madison/Documents/GitHub/adip2msfs/src/models/runway.cpp */ = {isa = PBXBuildFile; fileRef = 5FAEAF3F9EA04B49B5F41F4B /* /Users/madison/Documents/GitHub/adip2msfs/src/models/runway.cpp */; };
+		BD573B44B6FC41BB9ADE62ED /* /Users/madison/Documents/GitHub/adip2msfs/include/models/airport.hpp */ = {isa = PBXBuildFile; fileRef = 57D44969FD4949B7A474897F /* /Users/madison/Documents/GitHub/adip2msfs/include/models/airport.hpp */; };
+		C7A65013A3194AF98E865722 /* /Users/madison/Documents/GitHub/adip2msfs/src/models/airport.cpp */ = {isa = PBXBuildFile; fileRef = 47478761983D4D229A039CCF /* /Users/madison/Documents/GitHub/adip2msfs/src/models/airport.cpp */; };
+		C9EEDF6AFDAA440595FB4291 /* /Users/madison/Documents/GitHub/adip2msfs/src/coordinates.cpp */ = {isa = PBXBuildFile; fileRef = 0CF710A890FC4472B418CD0A /* /Users/madison/Documents/GitHub/adip2msfs/src/coordinates.cpp */; };
+		CA2F7A1EEBB04380802FBAD9 /* /Users/madison/Documents/GitHub/adip2msfs/include/adip2msfs.hpp */ = {isa = PBXBuildFile; fileRef = DC9CA99142054F5783C1E73D /* /Users/madison/Documents/GitHub/adip2msfs/include/adip2msfs.hpp */; };
+		CCBF6BFD38364DC7AE9B4ED4 /* /Users/madison/Documents/GitHub/adip2msfs/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = D90ED2A0CF87421582324DF7 /* /Users/madison/Documents/GitHub/adip2msfs/CMakeLists.txt */; };
+		ED971B7C396B4EB5B268D0B2 /* /Users/madison/Documents/GitHub/adip2msfs/src/adip2msfs.cpp */ = {isa = PBXBuildFile; fileRef = 7D789DFDA86D4A9484A30D54 /* /Users/madison/Documents/GitHub/adip2msfs/src/adip2msfs.cpp */; };
+		FC607DBE64E049E2A133383B /* /Users/madison/Documents/GitHub/adip2msfs/include/models/runway.hpp */ = {isa = PBXBuildFile; fileRef = B25BF1EEB0644B01B0F7A49C /* /Users/madison/Documents/GitHub/adip2msfs/include/models/runway.hpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		155268183C314FD799C75DE4 /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		670DB93D84DB4D98ADEF84A7 /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+		DAAF4E7DDE9C47029F588903 /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+		F39B6E22EB5D4966A6E1EAC0 /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		7EDE330AAE134EDDA487588D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 29035DAE579840FFA10B2B33 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E4E41337B9854B16A3561790;
+			remoteInfo = ZERO_CHECK;
+		};
+		CD8D451948914C3EB9688F09 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 29035DAE579840FFA10B2B33 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E4E41337B9854B16A3561790;
+			remoteInfo = ZERO_CHECK;
+		};
+		DF0133E41EF34E028466DC22 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 29035DAE579840FFA10B2B33 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A9EAF64F8123411EA6818271;
+			remoteInfo = adip2msfs;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0CF710A890FC4472B418CD0A /* /Users/madison/Documents/GitHub/adip2msfs/src/coordinates.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = coordinates.cpp; path = src/coordinates.cpp; sourceTree = SOURCE_ROOT; };
+		0F5F6A77078745C886927F5A /* /Users/madison/Documents/GitHub/adip2msfs/include/tinyxml2.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = tinyxml2.h; path = include/tinyxml2.h; sourceTree = SOURCE_ROOT; };
+		47478761983D4D229A039CCF /* /Users/madison/Documents/GitHub/adip2msfs/src/models/airport.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = airport.cpp; path = src/models/airport.cpp; sourceTree = SOURCE_ROOT; };
+		57D44969FD4949B7A474897F /* /Users/madison/Documents/GitHub/adip2msfs/include/models/airport.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = airport.hpp; path = include/models/airport.hpp; sourceTree = SOURCE_ROOT; };
+		5FAEAF3F9EA04B49B5F41F4B /* /Users/madison/Documents/GitHub/adip2msfs/src/models/runway.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = runway.cpp; path = src/models/runway.cpp; sourceTree = SOURCE_ROOT; };
+		6001D923EF584001BA844C92 /* /Users/madison/Documents/GitHub/adip2msfs/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		7D789DFDA86D4A9484A30D54 /* /Users/madison/Documents/GitHub/adip2msfs/src/adip2msfs.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = adip2msfs.cpp; path = src/adip2msfs.cpp; sourceTree = SOURCE_ROOT; };
+		8320CB1BE7364FE5B0349418 /* /Users/madison/Documents/GitHub/adip2msfs/src/models/fsdata.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = fsdata.cpp; path = src/models/fsdata.cpp; sourceTree = SOURCE_ROOT; };
+		8A1D746EF3544A1898EA4640 /* /Users/madison/Documents/GitHub/adip2msfs/include/models/fsdata.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = fsdata.hpp; path = include/models/fsdata.hpp; sourceTree = SOURCE_ROOT; };
+		924AE3E8934448369CC5036C /* adip2msfs */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = adip2msfs; sourceTree = BUILT_PRODUCTS_DIR; };
+		B25BF1EEB0644B01B0F7A49C /* /Users/madison/Documents/GitHub/adip2msfs/include/models/runway.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = runway.hpp; path = include/models/runway.hpp; sourceTree = SOURCE_ROOT; };
+		D90ED2A0CF87421582324DF7 /* /Users/madison/Documents/GitHub/adip2msfs/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		DC9CA99142054F5783C1E73D /* /Users/madison/Documents/GitHub/adip2msfs/include/adip2msfs.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = adip2msfs.hpp; path = include/adip2msfs.hpp; sourceTree = SOURCE_ROOT; };
+		F6C9C21BF6D3410DA283363C /* /Users/madison/Documents/GitHub/adip2msfs/include/csv.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = csv.hpp; path = include/csv.hpp; sourceTree = SOURCE_ROOT; };
+		F738E7FE5DB744179406E21D /* /Users/madison/Documents/GitHub/adip2msfs/include/coordinates.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = coordinates.hpp; path = include/coordinates.hpp; sourceTree = SOURCE_ROOT; };
+		FD20E8B38FA847E1B8CBC68D /* /Users/madison/Documents/GitHub/adip2msfs/src/tinyxml2.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = tinyxml2.cpp; path = src/tinyxml2.cpp; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		34904E6CB4964B28BBBEF50D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		13C9AE9A067D4E97B9A8DA2B = {
+			isa = PBXGroup;
+			children = (
+				C828FF3A015B4312BEF97F70 /* adip2msfs */,
+				7FFEE1CE8AEA42839B49E833 /* ALL_BUILD */,
+				F0BD286C5FCE4EA6905BEFE0 /* Products */,
+				C339C4681CB9401993E9D5EA /* Frameworks */,
+				8CD17D6F3D594186BE4C1215 /* Resources */,
+			);
+			sourceTree = "<group>";
+		};
+		6CA7B2FA7C7C44CB8D11EBFF /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		7FFEE1CE8AEA42839B49E833 /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				6CA7B2FA7C7C44CB8D11EBFF /* CMake Rules */,
+				6001D923EF584001BA844C92 /* /Users/madison/Documents/GitHub/adip2msfs/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		8CD17D6F3D594186BE4C1215 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		BD8CC1A8F5FD418592BDF269 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				7D789DFDA86D4A9484A30D54 /* /Users/madison/Documents/GitHub/adip2msfs/src/adip2msfs.cpp */,
+				0CF710A890FC4472B418CD0A /* /Users/madison/Documents/GitHub/adip2msfs/src/coordinates.cpp */,
+				47478761983D4D229A039CCF /* /Users/madison/Documents/GitHub/adip2msfs/src/models/airport.cpp */,
+				8320CB1BE7364FE5B0349418 /* /Users/madison/Documents/GitHub/adip2msfs/src/models/fsdata.cpp */,
+				5FAEAF3F9EA04B49B5F41F4B /* /Users/madison/Documents/GitHub/adip2msfs/src/models/runway.cpp */,
+				FD20E8B38FA847E1B8CBC68D /* /Users/madison/Documents/GitHub/adip2msfs/src/tinyxml2.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		C339C4681CB9401993E9D5EA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C828FF3A015B4312BEF97F70 /* adip2msfs */ = {
+			isa = PBXGroup;
+			children = (
+				BD8CC1A8F5FD418592BDF269 /* Source Files */,
+				EE1E9794D3B747C28B84856B /* Header Files */,
+				D90ED2A0CF87421582324DF7 /* /Users/madison/Documents/GitHub/adip2msfs/CMakeLists.txt */,
+			);
+			name = adip2msfs;
+			sourceTree = "<group>";
+		};
+		EE1E9794D3B747C28B84856B /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				DC9CA99142054F5783C1E73D /* /Users/madison/Documents/GitHub/adip2msfs/include/adip2msfs.hpp */,
+				F738E7FE5DB744179406E21D /* /Users/madison/Documents/GitHub/adip2msfs/include/coordinates.hpp */,
+				F6C9C21BF6D3410DA283363C /* /Users/madison/Documents/GitHub/adip2msfs/include/csv.hpp */,
+				57D44969FD4949B7A474897F /* /Users/madison/Documents/GitHub/adip2msfs/include/models/airport.hpp */,
+				8A1D746EF3544A1898EA4640 /* /Users/madison/Documents/GitHub/adip2msfs/include/models/fsdata.hpp */,
+				B25BF1EEB0644B01B0F7A49C /* /Users/madison/Documents/GitHub/adip2msfs/include/models/runway.hpp */,
+				0F5F6A77078745C886927F5A /* /Users/madison/Documents/GitHub/adip2msfs/include/tinyxml2.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		F0BD286C5FCE4EA6905BEFE0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				924AE3E8934448369CC5036C /* adip2msfs */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A9EAF64F8123411EA6818271 /* adip2msfs */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E031BA8950ED4BA1AF29A6EA /* Build configuration list for PBXNativeTarget "adip2msfs" */;
+			buildPhases = (
+				921011C5D5284A60A911B1D3 /* Sources */,
+				34904E6CB4964B28BBBEF50D /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3D567A88574749B0974AEA86 /* PBXTargetDependency */,
+			);
+			name = adip2msfs;
+			productName = adip2msfs;
+			productReference = 924AE3E8934448369CC5036C /* adip2msfs */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29035DAE579840FFA10B2B33 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1520;
+			};
+			buildConfigurationList = A62EDAE25EAF42C9930AB672 /* Build configuration list for PBXProject "adip2msfs" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				155268183C314FD799C75DE4 /* Debug */,
+				F39B6E22EB5D4966A6E1EAC0 /* Release */,
+				670DB93D84DB4D98ADEF84A7 /* MinSizeRel */,
+				DAAF4E7DDE9C47029F588903 /* RelWithDebInfo */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = 13C9AE9A067D4E97B9A8DA2B;
+			projectDirPath = .;
+			projectRoot = "";
+			targets = (
+				411604F61F004B2C8754DD25 /* ALL_BUILD */,
+				E4E41337B9854B16A3561790 /* ZERO_CHECK */,
+				A9EAF64F8123411EA6818271 /* adip2msfs */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3C0110FC8322DE7E50886E21 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		8E7C137FCC41B0AADF7B2A50 /* Generate CMakeFiles/ZERO_CHECK */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ZERO_CHECK";
+			outputPaths = (
+/Users/madison/Documents/GitHub/adip2msfs/CMakeFiles/ZERO_CHECK			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/madison/Documents/GitHub/adip2msfs
+  make -f /Users/madison/Documents/GitHub/adip2msfs/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/madison/Documents/GitHub/adip2msfs
+  make -f /Users/madison/Documents/GitHub/adip2msfs/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/madison/Documents/GitHub/adip2msfs
+  make -f /Users/madison/Documents/GitHub/adip2msfs/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/madison/Documents/GitHub/adip2msfs
+  make -f /Users/madison/Documents/GitHub/adip2msfs/CMakeScripts/ReRunCMake.make
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		9B50530E35CC49C82C2FACCF = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		EBE29C1B1CC9503C6403E336 /* Generate CMakeFiles/ALL_BUILD */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ALL_BUILD";
+			outputPaths = (
+/Users/madison/Documents/GitHub/adip2msfs/CMakeFiles/ALL_BUILD			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/madison/Documents/GitHub/adip2msfs
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/madison/Documents/GitHub/adip2msfs
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/madison/Documents/GitHub/adip2msfs
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/madison/Documents/GitHub/adip2msfs
+  echo Build\\ all\\ projects
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		921011C5D5284A60A911B1D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED971B7C396B4EB5B268D0B2 /* /Users/madison/Documents/GitHub/adip2msfs/src/adip2msfs.cpp */,
+				C9EEDF6AFDAA440595FB4291 /* /Users/madison/Documents/GitHub/adip2msfs/src/coordinates.cpp */,
+				C7A65013A3194AF98E865722 /* /Users/madison/Documents/GitHub/adip2msfs/src/models/airport.cpp */,
+				19281489B1C6455DB9D5E0DD /* /Users/madison/Documents/GitHub/adip2msfs/src/models/fsdata.cpp */,
+				644BC4DAE8B348B5803937A5 /* /Users/madison/Documents/GitHub/adip2msfs/src/models/runway.cpp */,
+				002ECAF4B541419B8E50E204 /* /Users/madison/Documents/GitHub/adip2msfs/src/tinyxml2.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3D567A88574749B0974AEA86 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E4E41337B9854B16A3561790 /* ZERO_CHECK */;
+			targetProxy = 7EDE330AAE134EDDA487588D /* PBXContainerItemProxy */;
+		};
+		6085FE1FE49B4D0294700C0E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A9EAF64F8123411EA6818271 /* adip2msfs */;
+			targetProxy = DF0133E41EF34E028466DC22 /* PBXContainerItemProxy */;
+		};
+		C07F02EE4DA54FAB8CC3FDED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E4E41337B9854B16A3561790 /* ZERO_CHECK */;
+			targetProxy = CD8D451948914C3EB9688F09 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		19BAE109408B4C89AD6ED198 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		1B2965F99EA8424583F2C643 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		1F1140837B4B448B93401394 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		247E9BBFC5BA407CBB72616E /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		438BED6FCF35430C81FCC621 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk;
+				SYMROOT = /Users/madison/Documents/GitHub/adip2msfs/build;
+			};
+			name = Debug;
+		};
+		4AB5A9823FD44A61911DDEB7 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/madison/Documents/GitHub/adip2msfs/RelWithDebInfo;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG '-std=gnu++2b' ";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = adip2msfs;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/madison/Documents/GitHub/adip2msfs/build/adip2msfs.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		638940E997A347FBB5154FE5 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/madison/Documents/GitHub/adip2msfs/MinSizeRel;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=gnu++2b' ";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = adip2msfs;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/madison/Documents/GitHub/adip2msfs/build/adip2msfs.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		6455DD4FEC894197ADF90B20 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		6A8016A28B5349E9B8A89ED7 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SYMROOT = /Users/madison/Documents/GitHub/adip2msfs/build;
+			};
+			name = RelWithDebInfo;
+		};
+		7EAE4C85F569407BAE298457 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/madison/Documents/GitHub/adip2msfs/Release;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=gnu++2b' ";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = adip2msfs;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/madison/Documents/GitHub/adip2msfs/build/adip2msfs.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		7EC2250A84A84186A6A1C790 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SYMROOT = /Users/madison/Documents/GitHub/adip2msfs/build;
+			};
+			name = MinSizeRel;
+		};
+		9599268F9E454472BD32B370 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		C744548518914016A5C2C076 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/madison/Documents/GitHub/adip2msfs/Debug;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "   '-std=gnu++2b' ";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = adip2msfs;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/madison/Documents/GitHub/adip2msfs/build/adip2msfs.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		E4202CF8A20248DD933D1AB2 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		F555A479C17B4EB88DA31225 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		FE3BC01C466048698BA16D5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SYMROOT = /Users/madison/Documents/GitHub/adip2msfs/build;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		07C0BC73AC524ED3A8D58391 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9599268F9E454472BD32B370 /* Debug */,
+				F555A479C17B4EB88DA31225 /* Release */,
+				1B2965F99EA8424583F2C643 /* MinSizeRel */,
+				E4202CF8A20248DD933D1AB2 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		4516E8A047B14DDF9C7A2AC9 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F1140837B4B448B93401394 /* Debug */,
+				19BAE109408B4C89AD6ED198 /* Release */,
+				6455DD4FEC894197ADF90B20 /* MinSizeRel */,
+				247E9BBFC5BA407CBB72616E /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		A62EDAE25EAF42C9930AB672 /* Build configuration list for PBXProject "adip2msfs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				438BED6FCF35430C81FCC621 /* Debug */,
+				FE3BC01C466048698BA16D5D /* Release */,
+				7EC2250A84A84186A6A1C790 /* MinSizeRel */,
+				6A8016A28B5349E9B8A89ED7 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		E031BA8950ED4BA1AF29A6EA /* Build configuration list for PBXNativeTarget "adip2msfs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C744548518914016A5C2C076 /* Debug */,
+				7EAE4C85F569407BAE298457 /* Release */,
+				638940E997A347FBB5154FE5 /* MinSizeRel */,
+				4AB5A9823FD44A61911DDEB7 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29035DAE579840FFA10B2B33 /* Project object */;
+}
